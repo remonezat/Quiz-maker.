@@ -1,0 +1,165 @@
+.yourdata
+{
+background:rgba(228, 216, 140, 0.438);
+height:1260px;
+width: 100%;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+rgba(0, 0, 0, 0.23) 0px 8px 8px;
+border-radius: 5rem;
+margin-top: 50px;
+}
+
+.btn {
+    padding: 1.1rem 5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: rgb(234, 151, 85);
+    border-radius: 2rem;
+    margin-top: 0rem;
+    cursor: pointer;
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.3);
+
+}
+.btn:hover{
+            background-color: rgb(143, 62, 18);
+            font-weight: bold;
+}
+
+.yourdata label{
+    font-size: 15px;
+    font-weight: 600;
+}
+.fieldset3 span{
+    font-size: 15px;
+    font-weight: 600;
+}
+.form{
+    margin-left:20px;
+}
+.fieldset4{
+font-size: 20px;
+   text-align: center;
+    justify-content: center;
+    height: 800px;
+    width: 500px;
+    margin:0 auto;
+    padding:30px;
+}
+.fieldset0{
+    align-items: center;
+   height: 200px;
+    text-align: center;
+    margin: 20px;
+}
+
+.fieldset0 .A1{
+    font-size: 50px;
+    font-family: cursive;
+   color: #c27b6a;
+  
+   text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+   0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.fieldset0 .A3{
+    margin-top: 30px;
+    font-size: 15px;
+}
+.fieldset0 .A5{
+    margin-top:15px;
+    font-size:15px;
+}
+.fieldset0 .A2 ~ label{
+    font-size: 20px;
+    font-weight: lighter;
+}
+ #ExamCode{
+    margin-left:71px;
+}
+.A2-1 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-right: -5px;
+}
+.fieldset1{
+    text-align: center;
+    height: 350px;
+    margin:20px;
+
+}
+.fieldset1 .B1{
+font-size: 50px;
+font-family: cursive;
+color: #c27b6a;
+
+text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.fieldset1 .B3{
+    margin-top:20px;
+}
+.B2-1{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom:50px;
+}
+.B3{
+    font-size:20px;
+    height: 50px;
+    width:600px;
+}
+.B5{
+    font-size:18px;
+}
+.B4-1{
+       font-size: 20px;
+       font-weight: lighter;
+       margin-left:-267px;
+       
+}
+.Q{
+margin-top: -20px;
+}
+.B5{
+    width:350px;
+    
+}
+.L{
+    margin-left: -112px;
+       font-size: 20px;
+       font-weight: lighter;
+}
+.fieldset3 span{
+
+font-size: 20px;
+font-weight: lighter;
+font-family: cursive;
+}
+.C1{
+  text-align: center;
+font-family: cursive;
+color: #c27b6a;
+font-size: 50px;
+text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.C2{
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: cursive;
+    color: #ac8126;
+    font-size: 25px;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.C4{
+    width: 500px;
+     margin-left: 50px;
+      height: 60px;
+}
+.C5{
+    margin-left: 50px;
+}
+body.logged #studentlog{
+    display: none;
+}

@@ -1,0 +1,373 @@
+*{
+    margin:0;
+    padding:0;
+     font-family: cursive;
+     box-sizing: border-box;
+
+}
+body{
+ background: url(images/home-bg.jpg) no-repeat;
+ background-size: cover;
+ background-attachment: fixed;
+
+}
+
+body.logged #studentlog,
+body.logged #teacherlog,
+body.logged #loginteacher,
+body.logged #loginstudent {
+    display: none;
+}
+
+.tm-nav{
+    height:100%;
+    width: 100%;
+    background:rgba(228, 216, 140, 0.438) ;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+    rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 4rem;
+    padding-bottom: 6vh;
+}
+
+.logo{
+    width: 236px;
+    
+    height: 189px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: -62px;
+    
+
+}
+.logo img {
+    width: 100%;
+    transform: scale(1.3);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.logo:hover {
+    transform: scale(1.4);
+
+}
+.tm-nav ul{
+    float:right;
+    margin-right: 20px ;
+
+}
+.tm-nav ul li{
+    list-style: none;
+    margin:0 8px ;
+    display: inline-block;
+    line-height: 80px;
+}
+.tm-nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: cursive;
+    padding:10px 15px;
+    background-color: rgba(238, 134, 59, 0.801);
+    border-radius: 5rem;
+    margin-top: 2rem;
+    box-shadow:0 1px 0.5px rgba(0,0,0,0.3);
+
+}
+.tm-nav ul li a:hover{
+    background-color: rgb(143, 62, 18);
+    font-weight: bold;
+}
+.tm-container h1,.tm-container p{
+    
+  color:rgb(77, 73, 73);
+  margin-top: 10px;
+  width: 698px;
+  text-align: center;
+    margin:-2px auto ;
+    
+
+
+}
+.tm-container h1{
+color: #c27b6a;
+font-size: 50px;
+text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+0px -4px 10px rgba(255, 255, 255, 0.3);
+margin-top: -34px;
+  
+}
+.tm-container p{
+font-size: 20px;
+}
+.tm-container2 {
+    height:600px;
+    width: 100%;
+  
+margin-top: 50px;
+
+
+}
+.tm-container3 {
+    background:rgba(228, 216, 140, 0.438);
+ height:600px;
+ width: 50%;
+ float:left;
+ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+ rgba(0, 0, 0, 0.23) 0px 8px 8px;
+ border-radius: 5rem;
+}
+
+.tm-sidebar {
+
+    height:600px;
+    width: 40%;
+    background:rgba(228, 216, 140, 0.438);
+   box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+   rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    float: right;
+    border-radius: 5rem;
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+}
+html::-webkit-scrollbar{
+    width:1.5rem
+}
+html::-webkit-scrollbar-track{
+    background-color: lightslategrey;
+}
+html::-webkit-scrollbar-thumb{
+    background-color: rgb(180, 123, 17);
+}
+.btn{
+    padding:1.1rem 5rem;
+    font-size: 1.5rem;
+    color:#fff;
+    background: rgb(234, 151, 85);
+    border-radius: 2rem;
+    margin-top: 0rem;
+    cursor: pointer;
+    box-shadow:0 1px 0.5px rgba(0, 0, 0, 0.3);
+
+}
+
+.login-form {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top:0; left:0;
+    z-index: 1000;
+    background:rgba(0,0,0,0.5);
+    display:none;
+    align-items: center;
+    justify-content:center ;
+}
+.login-form form{
+    width:35rem;
+    background:#fff;
+    margin: 0 2rem;
+    padding: 1rem 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.1rem 0.3rem #333;
+    position: relative;
+}
+.login-form form h3{
+font-size: 3rem;
+         color: #f39c12;
+        font-family: cursive;
+        padding: 1rem 0;
+}
+.login-form form .box{
+    width:100%;
+    border:0;
+    padding:1rem 0;
+    margin:1rem 0;
+    border-bottom: 0.2rem solid #666;
+    font-size: 1.6rem;
+    color:#333;
+    text-transform: none;
+    outline: none;
+}
+.login-form form .box::placeholder{
+    text-transform: capitalize;
+}
+.login-form form .box:focus{
+    border-color: #f39c12;
+
+}
+.login-form form .box:nth-child(3){
+    margin-bottom: 5rem;
+}
+.login-form form p{
+    font-size:1.4rem;
+    color:#666;
+    padding:0.5rem 0;
+}
+.login-form form p a{
+    color: #f39c12;
+}
+.login-form form .btn{
+    width: 100%;
+    margin:2rem 0;
+}
+.login-form form .btn:hover{
+    background-color: rgb(143, 62, 18);
+    font-weight: bold;
+}
+.login-form form .fa-times{
+    position: absolute;
+    top:1.5rem; right:2rem;
+    font-size:2.5rem;
+    cursor: pointer;
+    color:#444;
+}
+.login-form form .fa-times:hover{
+    color:rgb(143, 62, 18);
+}
+.contact{
+    margin-top: 50px;
+     background:rgba(228, 216, 140, 0.438);
+      box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 8px 8px;
+      border-radius: 4rem;
+      height: 110vh;
+
+
+}
+.contact .heading{
+    color:#fff;
+}
+.contact .row{
+    display:flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact .row form{
+    flex: 1 1 50rem;
+   
+    padding:2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -3rem;
+    align-items: flex-start;
+}
+.contact .row form .box{
+
+    height: 4rem;
+    width:62%;
+    border:0.5rem solid rgb(199, 167, 94);
+    padding:0 3rem;
+    margin:1rem 0;
+    font-size: 1.7rem;
+    color:rgb(0, 0, 0);
+    background: none;
+    text-transform: none;
+    border-radius: 1rem;
+}
+.contact .row form .box:focus{
+
+    border-color: #f39c12;
+}
+.contact .row form .box::placeholder{
+text-transform: capitalize;
+}
+.contact .row form .address{
+    height: 7rem;
+    padding:1rem ;
+    resize:none;
+    width:63%;
+    border-radius: 1rem;
+}
+.contact .row form .btn:hover{
+        background-color: rgb(143, 62, 18);
+        font-weight: bold;
+}
+.tm-footer .image img{
+    max-width: 100%;
+}
+.contact .row img{
+    height: 80vh;
+    margin-top: -1rem;
+    border-radius: 2rem;
+    margin-right:42px ;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 40px;
+    color: #c27b6a;
+    font-size: 50px;
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+.tm-footer {
+    background: rgba(228, 216, 140, 0.438);
+    height: 73px;
+    width: 100%;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px 10px,
+        rgba(0, 0, 0, 0.23) 0px 8px 8px 15px;
+    border-radius: 5rem;
+
+}
+.tm-footer h2{
+    text-align: center;
+    font-size: 20px;
+color: rgb(24 64 178);
+}
+.tm-footer p{
+    font-size: 15px;
+text-align: center;
+    border-radius: 4rem;
+        margin-top: 2rem;
+        box-shadow:0 1px 0.5px rgba(0, 0, 0, 0.3);
+}
+.tm-footer p a:hover{
+
+        background-color: rgb(143, 62, 18);
+        font-weight: bold;
+        color: #fff;
+        border-radius: 1rem;
+            margin-bottom: 20px;
+
+}
+.tm-footer p > a{
+    text-decoration: none;
+    color: rgb(18, 22, 9);
+    font-weight: bold;
+}
+.marquee {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+
+
+
+

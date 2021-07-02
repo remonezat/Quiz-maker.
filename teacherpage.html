@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="teacherpage.css">
+    <link rel="stylesheet" href="blankpage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+
+</head>
+
+<body>
+    <header class="tm-header" id="head">
+
+        <div class="tm-container">
+
+            <nav class="tm-nav">
+                <a href="homepage.html"><img src="images/quizlogo.png" alt="" class="logo"></a>
+                <ul>
+
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                                        <li ><a id="studentlog" href="#"data-target="model-studentlogin" >Student Login</a></li>
+                    <li><a href="#" id="teacherlog" data-target="model-teacherlogin">Teacher Login</a></li>
+
+               <li><a id="logout" href="#" onclick="logout()">Logout</a></li>
+
+
+
+
+
+
+                </ul>
+                <h1>Online Quiz Maker</h1>
+            </nav>
+
+        </div>
+    </header>
+
+
+    </div>
+    <div class="yourdataa">
+
+        <div class="student-profile">
+            <form action="" id="active">
+                <fieldset>
+                    <legend class="title1">Student Profile</legend>
+                    <label>Full name:</label> <input type="text" name="fullname" id="fullname" maxlength="40"
+                        placeholder="first name" required>
+                    <br><br>
+
+                    <label>National ID:</label> <input type="text" name="id" id="nationalid" maxlength="14"
+                        placeholder="national id" required>
+                    <br><br>
+                    <label>Address:</label> <input type="text" name="address" id="address" placeholder="Address"
+                        required>
+                    <br><br>
+                    <label>Email:</label> <input type="email" name="email" id="email" placeholder="email" required>
+                    <br><br>
+                    <label>Phone:</label> <input type="number" name="phone" id="mobilephone" placeholder="mobile phone"
+                        required>
+                    <br><br>
+
+                    <div class="gender">
+                        <label>Gender :</label>
+
+                        <label> Male</label>
+                        <input type="radio"class="BC" name="B" value="Male" tabindex="3" required>
+                        <label>Female</label> <input class="BC"type="radio" name="B" value="Female" tabindex="4" required>
+
+                    </div>
+                    <br><br>
+                    <label>Country:</label> <input type="text" name="country" id="countryname" list="co"
+                        placeholder="country" autocomplete="off" required>
+                    <datalist id="co">
+                        <option value="egypt"></option>
+                        <option value="america"></option>
+                        <option value="Albania"></option>
+                        <option value="Bahrain"></option>
+                        <option value="China"></option>
+                    </datalist>
+                    <br><br>
+
+                    <label>Blood Type:</label> <input type="text" name="bloodtype" id="Blood-Type" maxlength="10"
+                        placeholder="Blood Type" required>
+                    <br><br>
+                    <label>Father Name:</label><input type="text" name="fathername" id="fathername" maxlength="10"
+                        placeholder="Father name" required>
+                    <br><br>
+                    <label>Father job</label><input type="text" name="fatherjob" id="fatherjob" maxlength="10"
+                        placeholder="Father Job" required>
+                    <br><br>
+                </fieldset>
+            </form>
+            <form action="" class="Subjects">
+                <fieldset>
+                    <legend class="title1">Student Subjects</legend>
+                    <label>Grade:</label> <input type="text" name="grade" id="grade" maxlength="40" placeholder="Grade"
+                        required>
+                    <br><br>
+
+                    <label>Total Degree:</label> <input type="text" name="degree" id="degree" maxlength="14"
+                        placeholder="Total Degree" required>
+                    <br><br>
+                    <label>Numbers Of subjects:</label><input type="text" name="numofsub" id="numbersofsubject"
+                        placeholder="Numbers Of subjects" required>
+                    <br><br>
+                    <label>Class:</label> <input type="text" name="class" id="class" placeholder="Class" required>
+                    <br><br>
+                    <label>Section:</label> <input type="text" name="section" id="section" maxlength="10"
+                        placeholder="section" required>
+                    <br><br>
+                    <label>Semester/Year:</label> <input type="text" name="semester" id="semester" maxlength="10"
+                        placeholder="Semester/Year" required>
+                    <br><br>
+                </fieldset>
+
+            </form>
+            <span class="buttons">
+                      <div style="text-align: center; width: 100%;">
+                    <button type="button" class="btn2 Select" id="select1">Select</button>
+                </div>
+                  <div style="text-align: center; width: 100%;">
+                    <button type="button" class="btn2 insert" id="insert1">Insert</button>
+                </div>
+                                  <div style="text-align: center; width: 100%;">
+                    <button type="button" class="btn2 update" id="update1">Update</button>
+                </div>
+        </div>
+
+            </span>
+        
+
+        <div class="teacher-profile">
+            <form action="" id="active">
+
+                <fieldset>
+                    <legend class="title1">Teacher Profile</legend>
+                    <label>Full name:</label> <input type="text" name="fullname" id="fullname1" maxlength="40"
+                        placeholder="first name" required>
+                    <br><br>
+
+                    <label>National ID:</label> <input type="text" name="id" id="national-id" maxlength="14"
+                        placeholder="national id" required>
+                    <br><br>
+                    <label>Address:</label> <input type="text" name="address" id="address1" placeholder="Address"
+                        required>
+                    <br><br>
+                    <label>Email:</label> <input type="email" name="email" id="email1" placeholder="email" required>
+                    <br><br>
+                    <label>Phone:</label> <input type="number" name="phone" id="mobilephone1" placeholder="mobile phone"
+                        required>
+                    <br><br>
+
+                    <div class="gender">
+                        <label>Gender :</label>
+
+                        <label> Male</label>
+                        <input type="radio" name="BB" class="ge" value="Male" tabindex="3" required class="ge">
+                        <label>Female</label> <input class="ge" type="radio" name="BB" value="Female" tabindex="4" required>
+
+                    </div>
+                    <br><br>
+                    <label>Country:</label> <input type="text" name="country" id="countryname1" list="co"
+                        placeholder="country" autocomplete="off" required>
+                    <datalist id="co">
+                        <option value="egypt"></option>
+                        <option value="america"></option>
+                        <option value="Albania"></option>
+                        <option value="Bahrain"></option>
+                        <option value="China"></option>
+                    </datalist>
+                    <br><br>
+
+                    <label>Blood Type:</label> <input type="text" name="bloodtype" id="Blood-Type1" maxlength="10"
+                        placeholder="Blood Type" required>
+                    <br><br>
+
+                </fieldset>
+            </form>
+            <form action="" class="Subjects">
+                <fieldset>
+                    <legend class="title1">Teaching Subjects</legend>
+                    <label>Numbers Of subjects:</label><input type="number" name="number" id="numbersofsubject1"
+                        placeholder="Numbers Of subjects" required>
+                    <br><br>
+                    <label>Class:</label> <input type="text" name="class" id="class1" placeholder="Class" required>
+                    <br><br>
+                    <label>Section:</label> <input type="text" name="section" id="section1" maxlength="10"
+                        placeholder="section" required>
+                    <br><br>
+                    <label>Semester/Year:</label> <input type="text" name="semester" id="semester1" maxlength="10"
+                        placeholder="Semester/Year" required>
+                    <br><br>
+                </fieldset>
+
+            <span class="buttons">
+               <div style="text-align: center; width: 100%;">
+                    <button type="button" class="btn2 Select" id="select">Select</button>
+                </div>
+                <div style="text-align: center; width: 100%;">
+                    <button type="button" class="btn2 modify" onclick="del()">Modify</button>
+                </div>
+                <div style="text-align: center; width: 100%;">
+                    <button type="button" class="btn2 Apply" id="insert">Insert</button>
+                </div>
+                   <div style="text-align: center; width: 100%;">
+                    <button type="button" class="btn2 Update" id="update">Update</button>
+                </div>
+                 </div>
+
+                  <div style="text-align: center; width: 100%;">
+                    <button type="button" class="btn2 Start-test" onclick="gotest()">Make A Test</button>
+                </div>
+            </span>
+            </form>
+        </div>
+    </div>
+    <footer class="tm-footer">
+        <h2>Copyrights are reserved By ITI 2021</h2>
+        <p><a href="#head">Click Here To Go To Top Page</a></p>
+    </footer>
+
+
+
+
+
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-database.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-auth.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-analytics.js"></script>
+
+<script src="teacherdata.js"></script>
+   
+</body>
+
+</html>

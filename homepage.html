@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="tm-header" id="head">
+
+        <div class="tm-container">
+
+            <nav class="tm-nav">
+                <a href="homepage.html"><img src="images/quizlogo.png" alt="" class="logo"></a>
+                <ul>
+
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a id="logout" href="#" onclick="logout()">Logout</a></li>
+                    <li><a id="studentlog" href="#" data-target="model-studentlogin">Student Login</a></li>
+                    <li><a href="#" id="teacherlog" data-target="model-teacherlogin">Teacher Login</a></li>
+
+
+
+
+
+                </ul>
+                <h1>Online Quiz Maker</h1>
+                <p>
+                    Online examination is conducting a test online to measure
+                    the knowledge of the participants on a given topic.
+                    With online examination students can do the exam online, in their own time,
+                    with their own device, regardless of where they live. You only need a browser and an internet
+                    connection.
+                </p>
+            </nav>
+
+        </div>
+
+
+    </header>
+    <div id="loginstudent" class="login-form studentlogin">
+        <form action="" class="studentLogin">
+            <h3>Login</h3>
+
+            <input type="email" name="email" class="box" placeholder="Enter Your Email" required id=email>
+            <input type="password" name="password" class="box" placeholder="Password" required id="password">
+            <input type="number" name="number" class="box" placeholder="Enter Your Id" required id="Nation-Id">
+            <p>Forget Password ?<a href="#">Click Here</a></p>
+            <p>Don't have an account?<a href="Registry.html">Registry Now</a></p>
+            <button type="button" id="studentbtn" class="btn" onclick="loginst()">Login</button>
+
+            <i class="fas fa-times closestudent"></i>
+
+        </form>
+    </div>
+    <div id="loginteacher" class="login-form teacherlogin">
+        <form action="" class="teacherLogin">
+            <h3>Login</h3>
+
+
+            <input type="email" name="email" class="box" placeholder="Enter Your Email" required id="email">
+            <input type="password" name="password" class="box" placeholder="Password" required id="password">
+            <input type="number" name="number" class="box" placeholder="Enter Your Id" required id="nation-id">
+            <p>Forget Password ?<a href="#">Click Here</a></p>
+            <p>Don't have an account?<a href="Registry.html">Registry Now</a></p>
+            <button type="button" id="teacherbtn" class="btn" onclick="loginte('teacherLogin')">Login </button>
+            <i class="fas fa-times closeteacher"></i>
+
+        </form>
+    </div>
+    <div class="tm-container2">
+        <div class="tm-content">
+            <div class="tm-container3">
+                <section class="tm-section">
+
+                    <h2 style="font-size: xx-large; color: darkblue;display: contents;">How Our Quiz Maker Works?</h2>
+                    <br>
+                    <br>
+                    <br>
+                    <p style="width: 50%; font-size: large;display: contents;"> Transform your surveys into quizzes to
+                        get a baseline assessment from employees, students, or anyone
+                        you want to test:</p>
+
+
+                </section>
+
+                <article class="tm-article">
+
+                    <br>
+                    <br>
+
+
+
+                    <p style="width: 50%; font-size: large; width:200px;display: contents;">
+                        1- Log into Online Quiz Maker and choose one of our free online quiz templates, or select “Start
+                        from scratch.
+                        <br>
+                        <br>
+                        <br>
+  
+                        2- ”Add quiz questions to your survey.Enable quiz mode by Selecting “Send  question” for
+                        each quiz question.
+                        <br>
+                        <br>
+
+                        3- Assign your answer options points by checking on the valid answer.
+                        <br>
+                        <br>
+
+                        4- Show Your Quiz Result Immediately.
+                    </p>
+
+
+
+                </article>
+            </div>
+
+        </div>
+        <aside class="tm-sidebar">
+            <marquee class="marquee"behavior="slide" direction="down"loop="infinite"  >
+
+                <div class="track">
+                           <img style="border-radius: 10rem; width:540px; height:600px" src="mark1.png" alt="" srcset="">
+                <br><br>
+                <img style="border-radius: 10rem; width:540px; height:600px" src="mark2.jpg" alt="" srcset="">
+                <br><br>
+                <img style="border-radius: 10rem; width:540px; height:600px" src="mark3.png" alt="" srcset="">
+                <br><br>
+                <img style="border-radius: 2rem; width:540px; height:600px" src="mark4.png" alt="" srcset="">
+                </div>
+         
+            </marquee>
+
+        </aside>
+    </div>
+
+
+    <section class="contact" id="contact">
+
+        <h1> Contact Us</h1>
+        <div class="row">
+            <form action="" method="POST">
+                <input type="text" placeholder="Full Name" class="box" required>
+                <input type="email" placeholder="Your Email" class="box" required>
+                <input type="Password" placeholder="Your Password" class="box" required>
+
+                <input type="Number" placeholder="Your Number" class="box" required>
+                <textarea name="" id="" cols="30" rows="10" class="box address" placeholder="your address"></textarea>
+                <input type="submit" class="btn" value="Send Now">
+            </form>
+            <div class="image">
+                <img src="images/contact us2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="tm-footer">
+        <h2>Copyrights are reserved By ITI 2021</h2>
+        <p><a href="#head">Click Here To Go To Top Page</a></p>
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-analytics.js"></script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

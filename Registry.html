@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Document</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="registry.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header class="tm-header" id="head">
+
+        <div class="tm-container">
+
+            <nav class="tm-nav">
+                <a href="homepage.html"><img src="images/quizlogo.png" alt="" class="logo"></a>
+                <ul>
+
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="About us.html">About us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a id="logout" href="#" onclick="logout()">Logout</a></li>
+                    <li><a id="studentlog" href="#" data-target="model-studentlogin">Student Login</a></li>
+                    <li><a href="#" id="teacherlog" data-target="model-teacherlogin">Teacher Login</a></li>
+
+
+
+
+
+                </ul>
+                <h1>Online Quiz Maker</h1>
+            </nav>
+
+        </div>
+    </header>
+    <div id="loginstudent" class="login-form studentlogin">
+        <form action="">
+            <h3>Login</h3>
+
+            <input type="email" name="email" class="box" placeholder="Enter Your Email" required id=email>
+            <input type="password" name="password" class="box" placeholder="Password" required id="password">
+            <p>Forget Password ?<a href="#">Click Here</a></p>
+            <p>Don't have an account?<a href="Registry.html">Registry Now</a></p>
+            <button type="button" class="btn" onclick="loginst()">Login</button>
+
+            <i class="fas fa-times closestudent"></i>
+
+        </form>
+    </div>
+    <div id="loginteacher" class="login-form teacherlogin">
+        <form action="">
+            <h3>Login</h3>
+
+            <input type="email" name="email" class="box" placeholder="Enter Your Email" required id="email">
+            <input type="password" name="password" class="box" placeholder="Password" required id="password">
+            <p>Forget Password ?<a href="#">Click Here</a></p>
+            <p>Don't have an account?<a href="Registry.html">Registry Now</a></p>
+            <button type="button" class="btn" onclick="loginte()">Login </button>
+                <i class="fas fa-times closeteacher"></i>
+
+
+        </form>
+    </div>
+    <div class="yourdata">
+        <form class="form2">
+        <fieldset class="fieldset4">
+            <legend>Enter your data</legend>
+            Full Name <input type="text" name="fname" id="fullname" maxlength="10" placeholder="fullname" required>
+            <br><br>
+         
+            National ID <input type="text" name="id" class="national-idst"id="Nation-Id" maxlength="14" placeholder="national id" required>
+            <br><br>
+
+
+            <label>Gender :</label>
+
+            <label>Male</label>
+           <input type="radio" name="B" value="Male"  required>
+
+            <label>Female</label>
+             <input type="radio" name="B" value="Female"  required>
+
+
+            <br><br>
+            Password <input type="password" name="pass" id="password" placeholder="password" required>
+            <br><br>
+            Email <input type="email" name="email" id="email" placeholder="email" required>
+            <br><br>
+            Country <input type="text" name="country" id="countryname" list="co" placeholder="country"
+                autocomplete="off">
+            <datalist id="co">
+                <option value="egypt"></option>
+                <option value="america"></option>
+                <option value="Albania"></option>
+                <option value="Bahrain"></option>
+                <option value="China"></option>
+            </datalist>
+            <br><br>
+            <label><b>Are you a teacher or a student?</b></label>
+            <br>
+            Teacher <input type="radio"id="te" class="job" name="status" value="teacher">
+            Student <input type="radio"id="st" class="job" name="status" value="student">
+            <br><br>
+            <button  class="btn" id="sub" type="submit">Submit</button>
+            <button type="reset" class="btn">Reset</button>
+        </fieldset>
+
+        </form>
+    </div>
+    <footer class="tm-footer">
+        <h2>Copyrights are reserved By ITI 2021</h2>
+        <p><a href="#head">Click Here To Go To Top Page</a></p>
+    </footer>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.0/firebase-analytics.js"></script>
+
+
+
+  
+    <script src="script.js"></script>
+</body>
+
+</html>

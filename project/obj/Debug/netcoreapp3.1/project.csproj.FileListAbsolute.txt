@@ -1,0 +1,17 @@
+C:\Users\Active\Desktop\project\project\bin\Debug\netcoreapp3.1\project.exe
+C:\Users\Active\Desktop\project\project\bin\Debug\netcoreapp3.1\project.deps.json
+C:\Users\Active\Desktop\project\project\bin\Debug\netcoreapp3.1\project.runtimeconfig.json
+C:\Users\Active\Desktop\project\project\bin\Debug\netcoreapp3.1\project.runtimeconfig.dev.json
+C:\Users\Active\Desktop\project\project\bin\Debug\netcoreapp3.1\project.dll
+C:\Users\Active\Desktop\project\project\bin\Debug\netcoreapp3.1\project.pdb
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.csprojAssemblyReference.cache
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.Properties.Resources.resources
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.csproj.GenerateResource.cache
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.AssemblyInfoInputs.cache
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.AssemblyInfo.cs
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.csproj.CoreCompileInputs.cache
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.dll
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.pdb
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.genruntimeconfig.cache
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.Login.resources
+C:\Users\Active\Desktop\project\project\obj\Debug\netcoreapp3.1\project.welcome.resources

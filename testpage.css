@@ -1,0 +1,181 @@
+.student-profile{
+
+font-size: 16px;
+width: 800px;
+margin:auto
+}
+.title1{
+    font-size: 25px;
+    padding:15px;
+    text-align: center;
+}
+
+
+.btn2 {
+    padding: 0.5rem 5rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background: rgb(234, 151, 85);
+    border-radius: 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    box-shadow: 0 1px 0.5px rgba(0, 0, 0, 0.3);
+    width: 19rem;
+    
+
+
+}
+
+.btn2:hover {
+    background-color: rgb(143, 62, 18);
+    font-weight: bold;
+}
+
+.yourdataa {
+    background: rgba(228, 216, 140, 0.438);
+    height: 1100px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+        rgba(0, 0, 0, 0.23) 0px 8px 8px;
+    border-radius: 5rem;
+    margin-top: 50px;
+}
+.buttons{
+    display: flex;
+}
+
+.student-profile .gender input{
+
+    width:16px;
+    height: 20px;
+    margin: 0 auto;
+   
+}
+.gender input{
+    padding-left: 47px;
+}
+#fullname {
+    margin-left: 80px;
+}
+#nationalid{
+    margin-left:60px;
+}
+#address{
+        margin-left:87px;
+
+}
+#email {
+    margin-left: 107px;
+
+}
+#mobilephone{
+     margin-left: 105px;
+}
+#countryname{
+margin-left: 87px;
+}
+#Blood-Type{
+margin-left: 62px;
+}
+#fathername{
+margin-left: 54px;
+}
+#fatherjob{
+margin-left: 75px;
+}
+#grade{
+    margin-left: 99px;
+}
+#numbersofsubject{
+margin-left: 0px;
+}
+#degree {
+margin-left: 47px;
+}
+#class{
+    margin-left: 114px;
+
+}
+#section{
+    margin-left: 92px;
+
+}
+#semester {
+    margin-left: 32px;
+
+}
+.H{
+    margin-top: 30px;
+    position:absolute;
+    width:800px;
+}
+.I-1{
+    font-size: 20px;
+
+}
+.J{
+    font-size: 20px;
+    width: 400px;
+    margin-left: 25px;
+    height: 35px;
+}
+.I{
+    margin-left: 50px;
+}
+.buttons{
+    margin-top: 65px;
+}
+
+.K{
+    font-size: 40px;
+    font-family: cursive;
+    color: #c27b6a;
+    text-align: center;
+
+    text-shadow: 2px 7px 5px rgba(0, 0, 0, 0.3),
+    0px -4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.M{
+    width:500px;
+    height: 50px;
+   margin-left: 181px;
+   font-size: 20px;
+   font-weight: 700;
+   font-family: cursive;
+   text-align: center;
+}
+.N{
+    width:120px;
+    height: 30px;
+text-align: center;
+}
+
+.P{
+    margin-left: 189px;
+    height: 70px;
+    width: 600px;
+    
+}
+.O{
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: lighter;
+    margin-left: -13px;
+    padding:30px;
+}
+.R{
+    font-size: 20px;
+    width: 500px;
+   height: 40px;
+   padding:30px;
+}
+.Fi{
+    height:800px;
+}
+.Fi-1{
+    position: absolute;
+    margin-top: 13px;
+    font-size: 20px;
+    margin-left: 18px;
+}

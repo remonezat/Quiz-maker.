@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="HandheldFriendly" content="true">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+
+<body>
+    <header class="tm-header">
+
+        <div class="tm-container">
+
+            <nav class="tm-nav">
+                <a href="homepage.html"><img src="images/quizlogo.png" alt="" class="logo"></a>
+                <ul>
+
+                    <li><a href="homepage.html">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact</a></li>
+                  <li><a id="logout" href="#" onclick="logout()">Logout</a></li>
+                    <li ><a id="studentlog" href="#"data-target="model-studentlogin" >Student Login</a></li>
+                    <li><a href="#" id="teacherlog" data-target="model-teacherlogin">Teacher Login</a></li>
+                </ul>
+                <h1>ًWhy Choosing Us?</h1>
+        </div>
+
+    </header>
+    <div id="loginstudent" class="login-form studentlogin">
+        <form action="">
+            <h3>Login</h3>
+
+            <input type="email" name="email" class="box" placeholder="Enter Your Email" required id=emailstudent>
+            <input type="password" name="password" class="box" placeholder="Password" required id="passstudent">
+            <p>Forget Password ?<a href="#">Click Here</a></p>
+            <p>Don't have an account?<a href="Registry.html">Registry Now</a></p>
+            <button type="button" class="btn" onclick="loginst()">Login</button>
+
+            <i class="fas fa-times closestudent"></i>
+
+        </form>
+    </div>
+    <div id="loginteacher" class="login-form teacherlogin">
+        <form action="">
+            <h3>Login</h3>
+
+            <input type="email" name="email" class="box" placeholder="Enter Your Email" required id="emailteacher">
+            <input type="password" name="password" class="box" placeholder="Password" required id="passteacher">
+            <p>Forget Password ?<a href="#">Click Here</a></p>
+            <p>Don't have an account?<a href="Registry.html">Registry Now</a></p>
+            <button type="button" class="btn" onclick="loginte()">Login </button>
+                <i class="fas fa-times closeteacher"></i>
+
+        </form>
+    </div>
+
+
+    <div class="about">
+        <div class="photo">
+            <img src="images/3.png" alt="" max-width="100%">
+        </div>
+        <div class="maintree">
+            <div id="mainidea1">
+                <div class="idea1">
+                    <div class="img1div">
+                        <img alt="" src="images/Interactive-1.png" class="img1">
+                    </div>
+                    <h3 color="#2d333b" class="title1">SMART &amp; INTERACTIVE</h3>
+                    <div class="p1">
+                        <p>Show different Thank You screens depending on your students’ scores, and easily keep
+                            track of
+                            their progress.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="mainidea2">
+                <div class="idea2">
+                    <div class="img2div">
+                        <img alt="" src="images/fun.png" class="img2">
+                    </div>
+                    <h3 color="#2d333b" class="title2">MAKE LEARNING FUN</h3>
+                    <div class="p2">
+                        <p>Keep your students hooked from start to finish with a test that’s fun and engaging on
+                            any
+                            device.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="mainidea3">
+                <div class="idea3">
+                    <div class="img3div">
+                        <img src="images/time.png" class="img3">
+                    </div>
+                    <h3 color="#2d333b" class="title3">BUILD IT IN A FLASH</h3>
+                    <div class="p3">
+                        <p>Creating your test is super easy. Just copy and paste your questions to a template and
+                            share
+                            it.
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div id="mainidea4">
+                <div id="idea4">
+                    <div class="img4div">
+                        <div><img alt="" src="images/icon_express.png">
+                        </div>
+                    </div>
+                    <h3 color="#2d333b" class="title4">QUICK REPORTING</h3>
+                    <div class="p4">
+                        <p>Set up self-notifications so you know when people are done—then dive into Typeform's
+                            analysis
+                            tools to give each test taker their results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+        <form style="height: 500px;">
+            <div>
+
+                </h2>
+
+
+            </div>
+
+            <p style="float: right; height: 60%;">
+                <img src="images/school.jpg" alt="international school"
+                    style="max-width: 100%; height: 400px;border-radius: 3rem;">
+            </p>
+            <div
+                style="text-align: left; background: rgba(228, 216, 140, 0.438); font-style: inherit; max-width: 100%; margin-top: 50px; border-radius: 5rem; height: 400px;">
+                <p style="font-size: xx-large; color: darkblue;">Introduction</p>
+
+                <p style="width: 50%; font-size: large;">
+                    Quiz Marker school is a nationally recognized technological school administrating
+                    a remarkable process of education and securing a highly-ranked research and scholarships
+                    in various fields.
+
+                </p>
+
+                <p style="width: 50%; font-size: large;">
+                    Quiz Marker school is an active member of the Association of Arab schools,
+                    the International Association of school Presidents and
+                    the Association of schools.
+
+                </p>
+
+            </div>
+        </form><br>
+        <br><br><br><br><br><br><br><br><br><br>
+
+
+        <form>
+
+            <p style="float: right; height: 60%;">
+                <img src="images/s1.jpg" alt="student" style="max-width: 100%;border-radius: 4rem;height: 380px;;">
+
+            </p>
+            <div
+                style="height: 380px; width: 100%; background: rgba(228, 216, 140, 0.438); border-radius: 5rem;margin-top: -160px;">
+                <h1 style="color: darkblue; font-size: x-large;text-align: center;float:left;    margin-top: 20px;">Our
+                    Mission</h1>
+
+                <p style="width: 50%; font-size: large; float: left;">
+
+
+                    the University provides community
+                    and environmental services as well as distinguished applied researches that can support economic
+                    and societal transformations and achieve sustainable development.
+
+                </p>
+
+
+
+
+            </div>
+
+        </form><br><br><br><br><br><br><br><br><br><br><br>
+
+        <form>
+
+            <p style="float: right; height: 60%;">
+
+                <img src="images/s3.jpg" alt="vision" style="max-width: 100%;border-radius: 4rem;height: 380px;">
+            </p>
+
+            <div
+                style="height: 380px; width: 100%; background: rgba(228, 216, 140, 0.438); border-radius: 5rem;margin-top: -70px;">
+                <h1 style="color: darkblue; font-size: x-large;text-align: center;float:left;margin-top: 20px;">Our
+                    Vision</h1>
+
+                <p style="width:70%; font-size: large; float: left;margin-top: 15px;">
+
+                    Teachers and trainers can create a quiz to make lessons more
+                    interactive and engaging. It's been researched and proven that regular
+                    quizzes-not to be graded or evaluated (this is key)-boost memory retention,
+                    drive engagement, and make learning fun. More on this in a bit.
+                </p>
+
+            </div>
+
+
+        </form>
+
+    </div>
+
+
+
+
+    <footer class="tm-footer">
+        <h2>Copyrights are reserved By ITI 2021</h2>
+        <p><a href="#head">Click Here To Go To Top Page</a></p>
+    </footer>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-auth.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.5.0/firebase-analytics.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
